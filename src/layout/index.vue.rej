@@ -1,0 +1,23 @@
+diff a/src/layout/index.vue b/src/layout/index.vue	(rejected hunks)
+@@ -2 +2 @@
+-  <div :class="classObj" class="app-wrapper" >
++  <div :class="classObj" class="app-wrapper">
+@@ -4,3 +4,3 @@
+-    <sidebar class="sidebar-container"   />
+-    <div :class="{hasTagsView:needTagsView}" class="main-container" >
+-      <div :class="{'fixed-header':fixedHeader}"  >
++    <sidebar class="sidebar-container" />
++    <div :class="{hasTagsView:needTagsView}" class="main-container">
++      <div :class="{'fixed-header':fixedHeader}">
+@@ -11 +11 @@
+-      <right-panel v-if="showSettings" >
++      <right-panel v-if="showSettings">
+@@ -26,8 +25,0 @@ export default {
+-  data(){
+-     return {  
+-      // dh:false,
+-      // showSettings:false, 
+-      // needTagsView:false,
+-      }
+-
+-  },

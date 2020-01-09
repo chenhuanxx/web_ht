@@ -1,0 +1,11 @@
+diff a/src/main.js b/src/main.js	(rejected hunks)
+@@ -11 +11 @@ import iView from 'iview'
+-import 'iview/dist/styles/iview.css'    // 使用 CSS
++import 'iview/dist/styles/iview.css' // 使用 CSS
+@@ -40,2 +39,0 @@ import * as filters from './filters' // global filters
+- //mock引入
+- 
+@@ -52,2 +50 @@ import Print from 'vue-print-nb'
+-Vue.use(Print); 
+-
++Vue.use(Print)
